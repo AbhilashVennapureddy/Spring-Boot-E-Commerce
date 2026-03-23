@@ -20,12 +20,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.jtspringproject.JtSpringProject.models.Category;
-import com.jtspringproject.JtSpringProject.models.Product;
-import com.jtspringproject.JtSpringProject.models.User;
-import com.jtspringproject.JtSpringProject.services.categoryService;
-import com.jtspringproject.JtSpringProject.services.productService;
-import com.jtspringproject.JtSpringProject.services.userService;
+import com.ecomSpringBoot.ecomSpringBoot.models.Category;
+import com.ecomSpringBoot.ecomSpringBoot.models.Product;
+import com.ecomSpringBoot.ecomSpringBoot.models.User;
+import com.ecomSpringBoot.ecomSpringBoot.services.categoryService;
+import com.ecomSpringBoot.ecomSpringBoot.services.productService;
+import com.ecomSpringBoot.ecomSpringBoot.services.userService;
 
 @Controller
 @RequestMapping("/admin")

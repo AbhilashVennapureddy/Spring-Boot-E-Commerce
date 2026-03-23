@@ -11,8 +11,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import com.jtspringproject.JtSpringProject.models.User;
-import com.jtspringproject.JtSpringProject.services.userService;
+import com.ecomSpringBoot.ecomSpringBoot.models.User;
+import com.ecomSpringBoot.ecomSpringBoot.services.userService;
 
 @Configuration
 public class SecurityConfiguration {
