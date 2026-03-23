@@ -1,8 +1,8 @@
 package com.ecomSpringBoot.ecomSpringBoot.dao;
 
-import com.jtspringproject.JtSpringProject.models.Cart;
-import com.jtspringproject.JtSpringProject.models.CartProduct;
-import com.jtspringproject.JtSpringProject.models.Product;
+import com.ecomSpringBoot.ecomSpringBoot.models.Cart;
+import com.ecomSpringBoot.ecomSpringBoot.models.CartProduct;
+import com.ecomSpringBoot.ecomSpringBoot.models.Product;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

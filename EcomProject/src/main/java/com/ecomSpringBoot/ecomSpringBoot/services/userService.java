@@ -1,14 +1,14 @@
-package com.jtspringproject.JtSpringProject.services;
+package com.ecomSpringBoot.ecomSpringBoot.services;
 
-import com.jtspringproject.JtSpringProject.models.*;
+import com.ecomSpringBoot.ecomSpringBoot.models.*;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
-import com.jtspringproject.JtSpringProject.dao.userDao;
-import com.jtspringproject.JtSpringProject.models.User;
+import com.ecomSpringBoot.ecomSpringBoot.dao.userDao;
+import com.ecomSpringBoot.ecomSpringBoot.models.User;
 
 @Service
 public class userService {

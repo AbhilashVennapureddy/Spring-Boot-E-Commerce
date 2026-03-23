@@ -1,8 +1,8 @@
-package com.jtspringproject.JtSpringProject.services;
+package com.ecomSpringBoot.ecomSpringBoot.services;
 
-import com.jtspringproject.JtSpringProject.dao.cartDao;
-import com.jtspringproject.JtSpringProject.models.Cart;
-import com.jtspringproject.JtSpringProject.models.Category;
+import com.ecomSpringBoot.ecomSpringBoot.dao.cartDao;
+import com.ecomSpringBoot.ecomSpringBoot.models.Cart;
+import com.ecomSpringBoot.ecomSpringBoot.models.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
